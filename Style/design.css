@@ -1,3 +1,23 @@
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.raleway-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
     background-color: #F5F8FF;
 }
@@ -5,6 +25,7 @@ body {
 header {
     background-image: url(../Assets/Hero-bg.png);
     min-height: 500px;
+    padding-bottom: 100px;
 }
 
 .nav-menu {
@@ -21,7 +42,7 @@ nav ul li {
 
 .logo {
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 900;
     color: #4E47FF;
     margin: 0%;
 }
@@ -34,7 +55,7 @@ nav ul li {
     color: aliceblue;
     border-width: 0px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
     
 }
@@ -48,9 +69,10 @@ nav ul li {
     }
 
 .cool-dark {
-    font: 65px;
+    font-size: 65px;
     color: black;
-    padding-top: 50px;
+    padding: 30px 290px 30px;
+    margin: 0%;
 }
 
 /* Second section start from here */
@@ -100,6 +122,10 @@ nav ul li {
 .joined-users-h2 {
     font-size: 38px;
     font-weight: bold;
+}
+
+.joined-user-p {
+    padding-bottom: 20px;
 }
 
 .main-users-number {
@@ -154,7 +180,7 @@ nav ul li {
 .review-h4 {
     font-size: 25px;
     color: #040404;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0%;
     padding-top: 15px
 }
@@ -162,7 +188,7 @@ nav ul li {
 .review-p {
     font-size: 18px;
     color: #0000009f;
-    font-weight: 900;
+    font-weight: 400;
     margin: 0%;
     padding-top: 15px;
     padding-right: 50px;
@@ -192,6 +218,7 @@ nav ul li {
     margin: 0%;
     font-size: 15px;
     color: #757575;
+    font-weight: 700;
 }
 
 .avatar-p {
@@ -222,8 +249,9 @@ nav ul li {
 }
 
 .focus-img {
-    padding-top: 20px;
-    border-radius: 48px;
+    padding-top: 0px;
+    margin-top: 40px;
+    border-radius: 35px;
 }
 
 /* form section start from here */
@@ -234,13 +262,14 @@ nav ul li {
     gap: 100px;
     padding: 0px 180px;
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 70px;
+    align-items: center;
 }
 
 .form-title {
     font-size: 97px;
     font-weight: bold;
-    padding-right: 170px;
+    padding-right: 100px;
 }
 
 
@@ -277,7 +306,7 @@ nav ul li {
     color: aliceblue;
     border-width: 0px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
     cursor: pointer;
     
 }
@@ -295,41 +324,42 @@ nav ul li {
 
 /* Footer Start from here */
 
-.footer-div 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
-  padding: 130px 230px;
-  display: flex;
-  gap: 100px;
+    background-color: #ffffff;
+    margin: 0%;
+    padding: 110px 50px;
 }
 
-.footer-column {
-  width: 50%;
+.footer-div {
+    justify-content: center;
+    text-align: center;
 }
 
-footer input[Type="text"], footer input[Type="email"], footer textarea {
-  height: 64px;
-  border-radius: 5px;
-  border: none;
-  background-color: white;
-  display: block;
-  width: 100%;
-  padding: 10px 20px;
-  margin-bottom: 24px;
-
-  font-size: 16px;
-
+.footer-h2 {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #4E47FF;
 }
+
+.footer-h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8987A1;
+    padding: 10px 380px 30px;
+    margin: 0%;
+}
+
+.footer-flex-div {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.ok {
+    color: #8987A1;
+    text-decoration: none;
+}
+
+
