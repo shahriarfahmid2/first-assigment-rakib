@@ -81,8 +81,8 @@ nav ul li {
     padding: 50px 80px;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 110px;
+    
+    margin-bottom: 70px;
 }
 
 .joined-users-div {
@@ -121,7 +121,7 @@ nav ul li {
 .review-section {
     padding: 0px 80px;
     margin-top: 30px;
-    margin-bottom: 110px;
+    margin-bottom: 70px;
 }
 
 .review-h2 {
@@ -197,3 +197,25 @@ nav ul li {
 }
 
 /* ready to focus section start from here */
+
+.focus-section {
+    padding: 50px 80px;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+
+}
+
+.focus-div {
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 71px 150px;
+    
+
+}
+
+.focus-img {
+    padding-top: 20px;
+    border-radius: 48px;
+}
