@@ -1,0 +1,47 @@
+header {
+    background-image: url(../Assets/Hero-bg.png);
+    min-height: 500px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.logo {
+    font-size: 34px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin: 0%;
+}
+
+.sign-up {
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border-color: none;
+    color: aliceblue;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.div-header {
+    text-align: center;
+    }
+
+.cool-dark {
+    font: 65px;
+    color: black;
+    padding-top: 50px;
+}
+
+/* Second section start from here */
+
