@@ -1,3 +1,7 @@
+body {
+    background-color: #F5F8FF;
+}
+
 header {
     background-image: url(../Assets/Hero-bg.png);
     min-height: 500px;
@@ -7,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 60px;
+    padding: 50px 150px;
 
 }
 
@@ -45,3 +49,27 @@ nav ul li {
 
 /* Second section start from here */
 
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 150px;
+    align-items: center;
+}
+
+.action-h2 {
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 0%;
+    margin-bottom: -10px;
+}
+
+.action-p {
+    font-size: 24px;
+    font-weight: lighter;
+    padding-right: 250px;
+    color: #25243288;
+}
+
+.action-img {
+    border-radius: 48px;
+}
