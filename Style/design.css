@@ -35,6 +35,12 @@ nav ul li {
     border-width: 0px;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.sign-up:hover {
+    background-color: #040404;
 }
 
 .div-header {
@@ -218,4 +224,112 @@ nav ul li {
 .focus-img {
     padding-top: 20px;
     border-radius: 48px;
+}
+
+/* form section start from here */
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0px 180px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.form-title {
+    font-size: 97px;
+    font-weight: bold;
+    padding-right: 170px;
+}
+
+
+.form-column input[Type="text"], .form-column input[Type="email"] {
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.form-column textarea {
+  height: 80px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+
+.sign-up1 {
+    padding: 12px 170px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border-color: none;
+    color: aliceblue;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.sign-up1:hover {
+    background: #040404;
+}
+
+.button1 {
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+/* Footer Start from here */
+
+.footer-div 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+footer input[Type="text"], footer input[Type="email"], footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  border: none;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+
+  font-size: 16px;
+
 }
